@@ -1,0 +1,21 @@
+.hero {
+  background-size: cover;
+  &__gradient {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
+    padding: 2rem 0;
+  }
+  &__content {
+
+  }
+}
+
+
+.clear-left{
+  clear:left;
+}
+
+.hero-image {
+  position: relative;
+  height: 50vh;
+}
+

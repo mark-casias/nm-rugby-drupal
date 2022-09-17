@@ -1,0 +1,17 @@
+.pre-header {
+  background-color: clr(primary);
+  padding: 0.5rem;
+  display: none;
+  justify-content: end;
+
+  @include breakpoint($small) {
+    display: flex;
+  }
+
+  ol {
+    display: flex;
+  }
+  li {
+    list-style: none;
+  }
+}

@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  cli:
+    environment:
+      - COMPOSER_MEMORY_LIMIT=-1
+    volumes:
+      - ${PROJECT_ROOT}/.docksal/etc/drush:/etc/drush:ro
+    # Expose port and let Storybook attach to it.
+    expose:
+      - 6006
+    labels:
+      - io.docksal.virtual-host=storybook.${VIRTUAL_HOST},storybook.${VIRTUAL_HOST}.*
+      - io.docksal.virtual-port=6006

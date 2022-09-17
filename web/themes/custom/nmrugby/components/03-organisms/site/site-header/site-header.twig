@@ -1,0 +1,18 @@
+{% set header__base_class = 'header' %}
+{# If `directory` is defined, set the path relative for Drupal.
+ # Otherwise, set the path relative to the Component Library. #}
+{% set header__logo_src = directory ? '/' ~ directory ~ '/images/Y-HS-V2-logo.webp' : 'Y-HS-V2-logo.webp' %}
+
+<header class="header">
+  {%  include "@molecules/branding-hero/branding-hero.twig" %}
+  <div class="header__menu">
+    {% block header__menu %}
+      {% include "@molecules/menus/main-menu/main-menu.twig" %}
+    {% endblock %}
+  </div>
+  <div class="header__breadcrumbs">
+      {% block header__breadcrumbs %}
+        {% include "@molecules/menus/breadcrumbs/breadcrumbs.twig" %}
+      {% endblock %}
+  </div>
+</header>
