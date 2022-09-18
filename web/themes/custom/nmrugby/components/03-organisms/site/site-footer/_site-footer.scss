@@ -1,5 +1,6 @@
 .footer {
   background-color: clr(primary);
+  color: clr(accent);
   padding: $space 0;
 
   &__inner {
@@ -20,13 +21,25 @@
   @include large {
     flex: 0 1 30%;
     margin-bottom: 0;
-    margin-right: $space;
+  }
+}
+
+.footer__center {
+  margin-bottom: $space;
+
+  @include large {
+    flex: 1 1 100%;
+    margin: 0 $space;
+
+  }
+  p {
+    margin: .5rem;
   }
 }
 
 .footer__menu {
   @include large {
-    flex: 1 1 100%;
+    flex: 0 1 30%;
     margin-left: auto;
     text-align: right;
   }

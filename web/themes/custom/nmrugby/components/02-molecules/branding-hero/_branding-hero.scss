@@ -1,13 +1,22 @@
 .branding-hero {
   background-size: cover;
+  background-position: center;
   height: 25vh;
   &__gradient {
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
     padding: 2rem 0;
     height: 100%;
   }
-  &__content {
-
+  &__branding {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  &__name {
+    margin-left: 2rem;
+    p {
+      margin-bottom: 0;
+    }
   }
 }
 

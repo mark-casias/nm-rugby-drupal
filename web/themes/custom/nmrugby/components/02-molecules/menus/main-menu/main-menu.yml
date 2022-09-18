@@ -1,6 +1,9 @@
 menu_items:
   - title: 'Menu Item 1'
     url: '#'
+    below:
+      - title: 'Sub 1'
+        url: '#'
   - title: 'Menu Item 2'
     url: '#'
   - title: 'Menu Item 3'

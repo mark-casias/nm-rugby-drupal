@@ -10,6 +10,13 @@
 
   &--with-sub {
     width: 80%;
+    &::after {
+      color: clr(text-inverse);
+      display: inline-block;
+      content: '>';
+      margin-left: 0.5rem;
+      transform: rotate(90deg);
+    }
   }
 
   @include medium {
@@ -25,13 +32,6 @@
     &:active,
     &:hover {
       color: clr(highlight-high);
-    }
-
-    &::after {
-      color: clr(text-inverse);
-      display: inline-block;
-      content: '>';
-      margin-left: 0.5rem;
     }
 
     &--sub::after {

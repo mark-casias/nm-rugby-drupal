@@ -1,10 +1,16 @@
 {% set footer__base_class = 'footer' %}
 
-<footer {{ bem(footer__base_class) }}>
+<footer class="footer">
   <div {{ bem('inner', [], footer__base_class) }}>
     <div {{ bem('social', [], footer__base_class) }}>
       {% block footer__social %}
         {% include "@molecules/menus/social/social-menu.twig" %}
+      {% endblock %}
+    </div>
+    <div class="footer__center">
+      {% block footer__center %}
+        <p class="text-center">©2021 by NMYR.</p>
+        <p class="text-center">NMYR is a 501(c)(3) charitable organization EIN: 51-0433520</p>
       {% endblock %}
     </div>
     <div {{ bem('menu', [], footer__base_class) }}>

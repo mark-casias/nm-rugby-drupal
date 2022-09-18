@@ -8,11 +8,13 @@ Hero image that is inserted to every page. This will somehow have variable image
 #}
 
 {% set brand_img = directory ? '/' ~ directory ~ '/images/Y-HS-V2-logo.webp' : 'Y-HS-V2-logo.webp' %}
+{%  set hero = 'hero-' ~ random(0, 7) ~ '.jpg'%}
+{%  set hero_img = directory ? '/' ~ directory ~ '/images/heros/' ~ hero : 'heros/' ~ hero %}
 
-<div class="branding-hero" style="background-image: url('https://placeimg.com/1200/180/any');">
+<div class="branding-hero" style="background-image: url({{ hero_img }});">
   <div class="branding-hero__gradient">
   <div class="container">
-    <div class="d-flex items-center">
+    <div class="branding-hero__branding">
       {% embed "@atoms/links/link/link.twig" %}
         {% block link_content %}
           {% include "@atoms/images/image/responsive-image.twig" with {
@@ -23,14 +25,14 @@ Hero image that is inserted to every page. This will somehow have variable image
           } %}
         {% endblock %}
       {%  endembed %}
-      <div>
-          <p class="h1 ms-1 mb-3">
+      <div class="branding-hero__name">
+          <p class="h1">
             {{ site_name }}
           </p>
-        <div class="hidden d-sm-block">
-          {{ site_slogan }}
-        </div>
       </div>
+    </div>
+    <div class="branding-hero__slogan hidden d-sm-block">
+      {{ site_slogan }}
     </div>
   </div>
   </div>

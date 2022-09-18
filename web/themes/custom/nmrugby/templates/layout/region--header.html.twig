@@ -12,8 +12,12 @@
  * @see template_preprocess_region()
  */
 #}
-{% extends "@organisms/site/site-header/site-header.twig" %}
+{% embed "@organisms/site/site-header/site-header.twig"  with {
+  site_name: 'NM Rugby',
+  site_slogan: "New Mexico's only youth rugby organization"
+} %}
 
-{% block header__menu %}
-  {{ content }}
-{% endblock %}
+  {% block header__menu %}
+    {{ content }}
+  {% endblock %}
+{%  endembed %}

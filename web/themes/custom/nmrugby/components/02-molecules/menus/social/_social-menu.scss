@@ -1,5 +1,7 @@
 .social-menu {
   @include list-reset;
+  display: flex;
+  justify-content: end;
 
   &__item {
     margin-bottom: $space-one-fourth;
@@ -17,10 +19,10 @@
     height: 2rem;
     width: 2rem;
     margin-right: $space-one-half;
-    fill: currentColor;
+    fill: clr(secondary);
   }
 
   &__text {
-    font-weight: bold;
+    display: none;
   }
 }
