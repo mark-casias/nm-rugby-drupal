@@ -1,5 +1,5 @@
 {
-  "name": "emulsify-drupal",
+  "name": "nm-rugby",
   "version": "1.0.0",
   "description": "Storybook development + Webpack Build + Drupal 8 theme",
   "keywords": [
@@ -10,7 +10,7 @@
     "storybook",
     "styleguide"
   ],
-  "author": "Four Kitchens <shout@fourkitchens.com>",
+  "author": "Mark Casias",
   "license": "ISC",
   "scripts": {
     "a11y": "npm run storybook-build && ./scripts/a11y.js -r",
@@ -28,8 +28,8 @@
     "prepare": "husky install",
     "prettier": "prettier --ignore-unknown \"./components/**/*.{js,yml,scss,md}\"",
     "prettier-fix": "prettier --write --ignore-unknown \"./components**/*.{js,yml,scss,md}\"",
-    "storybook": "start-storybook --ci -s ./dist,./images -p 6006",
-    "storybook-build": "npm run build && build-storybook -s ./dist,./images -o .out",
+    "storybook": "start-storybook --ci -p 6006",
+    "storybook-build": "npm run build && build-storybook -o .out",
     "storybook-deploy": "storybook-to-ghpages -o .out",
     "test": "jest --coverage",
     "twatch": "jest --no-coverage --watch --verbose",
