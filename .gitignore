@@ -43,3 +43,4 @@ web/sites/simpletest
 # Ignore SimpleTest multi-site environment.
 simpletest
 /.idea
+/web/sites/default/settings.local.php

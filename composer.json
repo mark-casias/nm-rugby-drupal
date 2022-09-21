@@ -19,6 +19,7 @@
         "drupal/components": "^2.4",
         "drupal/core-composer-scaffold": "^9.4",
         "drupal/core-recommended": "^9.4",
+        "drupal/core-vendor-hardening": "^9.4",
         "drupal/emulsify_twig": "^2.1",
         "drupal/layout_paragraphs": "^1.0",
         "drupal/pathauto": "^1.11",
@@ -37,7 +38,8 @@
         "allow-plugins": {
             "composer/installers": true,
             "drupal/core-composer-scaffold": true,
-            "dealerdirect/phpcodesniffer-composer-installer": true
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "drupal/core-vendor-hardening": true
         },
         "sort-packages": true
     },
