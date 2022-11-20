@@ -1,6 +1,6 @@
 global:
   js:
-    dist/js/boostrap.js: {}
+    dist/js/bootstrap.js: {}
   css:
     theme:
       dist/style.css: {}
