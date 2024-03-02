@@ -26,7 +26,6 @@
         "drupal/pathauto": "^1.11",
         "drupal/smart_trim": "^2.0",
         "drupal/storybook": "@alpha",
-        "drupal/upgrade_status": "^4.1",
         "drush/drush": "^12.4",
         "mglaman/composer-drupal-lenient": "^1.0"
     },
