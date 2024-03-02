@@ -1,0 +1,22 @@
+uuid: 1a6ec3e7-65f5-4bd2-b9cb-5bc330549a27
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - nmrugby
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: nmrugby_help
+theme: nmrugby
+region: content
+weight: -5
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

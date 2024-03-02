@@ -1,0 +1,22 @@
+uuid: 94fbed2b-adf2-476f-9c31-83a3bcc72f58
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - nmrugby
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: nmrugby_content
+theme: nmrugby
+region: content
+weight: -4
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

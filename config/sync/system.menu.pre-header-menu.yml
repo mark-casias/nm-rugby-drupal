@@ -1,0 +1,8 @@
+uuid: bccd6bf8-763f-4251-9846-a0a0f0510caa
+langcode: en
+status: true
+dependencies: {  }
+id: pre-header-menu
+label: 'Pre Header Menu'
+description: 'Use this menu to add a special button in the pre-header'
+locked: false

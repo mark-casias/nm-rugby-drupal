@@ -1,0 +1,22 @@
+uuid: e6a8ae3c-54b5-42ca-bad3-b8e40d72c12f
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - nmrugby
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: nmrugby_powered
+theme: nmrugby
+region: footer
+weight: -5
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

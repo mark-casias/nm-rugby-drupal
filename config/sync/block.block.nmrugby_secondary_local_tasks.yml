@@ -1,0 +1,22 @@
+uuid: ee0008dc-35cb-41b9-a6e1-8c9ea1e2b5be
+langcode: en
+status: false
+dependencies:
+  theme:
+    - nmrugby
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: nmrugby_secondary_local_tasks
+theme: nmrugby
+region: footer
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

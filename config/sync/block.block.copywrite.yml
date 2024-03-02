@@ -1,0 +1,25 @@
+uuid: c25fd265-91c1-4382-9089-593e7a22a72f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:5e9c6531-cb6e-413f-9dd3-8e4f6959e0c5'
+  module:
+    - block_content
+  theme:
+    - nmrugby
+id: copywrite
+theme: nmrugby
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:5e9c6531-cb6e-413f-9dd3-8e4f6959e0c5'
+settings:
+  id: 'block_content:5e9c6531-cb6e-413f-9dd3-8e4f6959e0c5'
+  label: Copywrite
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

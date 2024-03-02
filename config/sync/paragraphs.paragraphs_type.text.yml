@@ -1,0 +1,18 @@
+uuid: 8052ade8-82ec-409a-9c2f-50f91079221f
+langcode: en
+status: true
+dependencies:
+  module:
+    - layout_paragraphs
+id: text
+label: Text
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins:
+  layout_paragraphs:
+    enabled: true
+    available_layouts:
+      layout_onecol: 'One column'
+      layout_twocol: 'Two column'
+      layout_twocol_bricks: 'Two column bricks'

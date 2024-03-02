@@ -1,0 +1,22 @@
+uuid: bd1e06f7-9a4a-46db-b296-422412b2bdc2
+langcode: en
+status: true
+dependencies:
+  theme:
+    - nmrugby
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: nmrugby_primary_local_tasks
+theme: nmrugby
+region: content
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

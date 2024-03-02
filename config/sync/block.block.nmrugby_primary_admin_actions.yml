@@ -1,0 +1,20 @@
+uuid: 9f8d56e0-3f81-458c-8a7c-40d8e6ec36c9
+langcode: en
+status: true
+dependencies:
+  theme:
+    - nmrugby
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: nmrugby_primary_admin_actions
+theme: nmrugby
+region: preheader
+weight: -8
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }
