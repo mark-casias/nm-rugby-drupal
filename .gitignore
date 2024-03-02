@@ -35,6 +35,7 @@ web/sites/simpletest
 
 # Ignore configuration files that may contain sensitive information.
 */settings*.php
+!web/sites/default/settings.php
 
 # Ignore paths that contain user-generated content.
 */files
