@@ -4,7 +4,7 @@ langcode: en
 uuid: 5a01d452-09f5-4d1a-a6f2-2cefdeda457f
 name: 'NM Rugby'
 mail: ttest@here.com
-slogan: 'New Mexico''s only youth rugby organization'
+slogan: "New Mexico's only youth rugby organization"
 page:
   403: ''
   404: ''
@@ -12,3 +12,4 @@ page:
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en
+mail_notification: ''

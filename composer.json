@@ -23,9 +23,11 @@
         "drupal/core-vendor-hardening": "^10.2",
         "drupal/emulsify_twig": "^4.0",
         "drupal/layout_paragraphs": "^2.0",
+        "drupal/nomarkup": "^1.0",
         "drupal/pathauto": "^1.11",
         "drupal/smart_trim": "^2.0",
-        "drupal/storybook": "@alpha",
+        "drupal/stage_file_proxy": "^2.1",
+        "drupal/storybook": "^1.0@beta",
         "drush/drush": "^12.4",
         "mglaman/composer-drupal-lenient": "^1.0"
     },

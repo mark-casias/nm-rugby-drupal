@@ -12,6 +12,7 @@ dependencies:
     - contextual
     - file
     - filter
+    - help
     - node
     - path
     - system
@@ -28,12 +29,15 @@ permissions:
   - 'access content overview'
   - 'access contextual links'
   - 'access files overview'
+  - 'access help pages'
   - 'access toolbar'
+  - 'administer menu'
   - 'administer url aliases'
   - 'create article content'
   - 'create page content'
   - 'create terms in tags'
   - 'create url aliases'
+  - 'delete own files'
   - 'delete own page content'
   - 'delete page revisions'
   - 'edit any article content'
