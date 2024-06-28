@@ -3,8 +3,8 @@ langcode: en
 status: true
 dependencies:
   config:
+    - filter.format.basic_html
     - filter.format.full_html
-    - filter.format.restricted_html
     - node.type.article
     - node.type.page
     - taxonomy.vocabulary.tags
@@ -47,8 +47,8 @@ permissions:
   - 'edit terms in tags'
   - 'revert all revisions'
   - 'revert article revisions'
+  - 'use text format basic_html'
   - 'use text format full_html'
-  - 'use text format restricted_html'
   - 'view all revisions'
   - 'view article revisions'
   - 'view own unpublished content'

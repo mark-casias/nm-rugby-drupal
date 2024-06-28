@@ -10,6 +10,15 @@ module:
   block_content: 0
   breakpoint: 0
   ckeditor5: 0
+  ckeditor5_plugin_pack: 0
+  ckeditor5_plugin_pack_find_and_replace: 0
+  ckeditor5_plugin_pack_font: 0
+  ckeditor5_plugin_pack_highlight: 0
+  ckeditor5_plugin_pack_indent_block: 0
+  ckeditor5_plugin_pack_page_break: 0
+  ckeditor5_plugin_pack_select_all: 0
+  ckeditor5_plugin_pack_text_transformation: 0
+  ckeditor5_plugin_pack_word_count: 0
   components: 0
   config: 0
   contact: 0

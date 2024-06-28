@@ -4,11 +4,12 @@ status: true
 dependencies:
   module:
     - editor
+    - media
 _core:
   default_config_hash: WNeK5FbcY8pXgEpbD_KgRzlF1-5PL3BJXwqaBctPTqw
 name: 'Full HTML'
 format: full_html
-weight: 2
+weight: -10
 filters:
   editor_file_reference:
     id: editor_file_reference
@@ -49,3 +50,12 @@ filters:
     status: true
     weight: 12
     settings: {  }
+  media_embed:
+    id: media_embed
+    provider: media
+    status: true
+    weight: 100
+    settings:
+      default_view_mode: default
+      allowed_view_modes: {  }
+      allowed_media_types: {  }
