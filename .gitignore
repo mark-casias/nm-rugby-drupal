@@ -45,3 +45,4 @@ web/sites/simpletest
 simpletest
 /.idea
 /web/sites/default/settings.local.php
+/node_modules
