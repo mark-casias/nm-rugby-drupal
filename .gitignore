@@ -46,3 +46,4 @@ simpletest
 /.idea
 /web/sites/default/settings.local.php
 /node_modules
+.DS_Store
