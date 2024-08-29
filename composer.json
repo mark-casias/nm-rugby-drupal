@@ -29,7 +29,7 @@
         "drupal/smart_trim": "^2.0",
         "drupal/stage_file_proxy": "^2.1",
         "drupal/storybook": "^1.0@beta",
-        "drush/drush": "^12.4",
+        "drush/drush": "^13.0",
         "mglaman/composer-drupal-lenient": "^1.0"
     },
     "require-dev": {
