@@ -26,10 +26,11 @@
         "drupal/layout_paragraphs": "^2.0",
         "drupal/nomarkup": "^1.0",
         "drupal/pathauto": "^1.11",
+        "drupal/sdc_styleguide": "@dev",
         "drupal/smart_trim": "^2.0",
-        "drupal/stage_file_proxy": "^2.1",
+        "drupal/stage_file_proxy": "^3.1",
         "drupal/storybook": "^1.0@beta",
-        "drush/drush": "^13.0",
+        "drush/drush": "^13.3",
         "mglaman/composer-drupal-lenient": "^1.0"
     },
     "require-dev": {
@@ -43,12 +44,13 @@
     "config": {
         "allow-plugins": {
             "composer/installers": true,
-            "drupal/core-composer-scaffold": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
+            "drupal/core-composer-scaffold": true,
             "drupal/core-vendor-hardening": true,
             "mglaman/composer-drupal-lenient": true,
             "php-http/discovery": true,
-            "phpstan/extension-installer": true
+            "phpstan/extension-installer": true,
+            "tbachert/spi": true
         },
         "sort-packages": true
     },
