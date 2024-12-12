@@ -1,0 +1,7 @@
+name: Hero
+description: ''
+props:
+  directory: themes/custom/nmrugby
+  site_name: 'Hello World'
+  site_slogan: 'You are spiffy'
+slots: {  }

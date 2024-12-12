@@ -7,24 +7,17 @@ Hero image that is inserted to every page. This will somehow have variable image
     site_slogan: Slogan.
 #}
 
-{% set brand_img = directory ? '/' ~ directory ~ '/images/Y-HS-V2-logo.webp' : 'Y-HS-V2-logo.webp' %}
+{% set brand_img = directory ? '/' ~ directory ~ '/images/nmyr-Logo.webp' : 'nmyr-Logo.webp' %}
 {%  set hero = 'hero-' ~ random(0, 7) ~ '.jpg'%}
 {%  set hero_img = directory ? '/' ~ directory ~ '/images/heros/' ~ hero : 'heros/' ~ hero %}
 
-<div class="branding-hero" style="background-image: url({{ hero_img }});">
+<div {{attributes.addClass("branding-hero")}} style="background-image: url({{ hero_img }});">
   <div class="branding-hero__gradient">
   <div class="branding-hero__container">
     <div class="branding-hero__branding">
-      {% embed "@atoms/links/link/link.twig" %}
-        {% block link_content %}
-          {% include "@atoms/images/image/responsive-image.twig" with {
-            output_image_tag: true,
-            image_src: brand_img,
-            image_alt: 'Logo',
-            responsive_image_blockname: 'logo',
-          } %}
-        {% endblock %}
-      {%  endembed %}
+      <a href="/">
+        <img src="{{brand_img}}" class="branding-logo" alt="{{ 'Home'|t }}" fetchpriority="high" />
+      </a>
       <div class="branding-hero__name">
           <p class="h1">
             {{ site_name }}

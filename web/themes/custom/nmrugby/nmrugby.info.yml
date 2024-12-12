@@ -13,7 +13,7 @@ regions:
   header: Header
   content: Content
   footer: Footer
-logo: images/usa-rugby.webp
+logo: images/nmyr-Logo.webp
 components:
   namespaces:
     base:

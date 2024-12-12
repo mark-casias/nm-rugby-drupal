@@ -1,0 +1,30 @@
+$schema: https://git.drupalcode.org/project/sdc/-/raw/1.x/src/metadata.schema.json
+name: 'Colors'
+description: 'A demo of the colors'
+status: experimental
+group: Base
+props:
+  type: object
+  properties:
+    colors_heading:
+      type: string
+      title: 'Color Heading'
+      description: Color Heading
+    palettes:
+      type: array
+      title: Palettes
+      description: 'An array of Palettes'
+      items:
+        palette_heading:
+          type: string
+          title: 'Palette Heading'
+          description: 'Defines the mode.'
+        colors:
+          type: array
+          title: 'Colors'
+          description: 'The color variables'
+          items:
+            color:
+              type: string
+              title: 'Name'
+              description: 'Use the variable name without color'

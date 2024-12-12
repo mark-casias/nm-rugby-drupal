@@ -1,0 +1,19 @@
+$schema: https://git.drupalcode.org/project/sdc/-/raw/1.x/src/metadata.schema.json
+name: Branding Hero
+status: experimental
+group: Site
+props:
+  type: object
+  properties:
+    directory:
+      type: string
+      title: 'path'
+      description: 'Use to define path to images folder. eg: themes/custom/nmrugby'
+    site_name:
+      type: string
+      title: 'Site Title'
+      description: ''
+    site_slogan:
+      type: string
+      title: 'Site Slogan'
+      description: ''

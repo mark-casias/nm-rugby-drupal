@@ -1,5 +1,8 @@
 const autoPrefixer = require('autoprefixer');
 
 module.exports = {
-  plugins: [autoPrefixer()],
+  plugins: [
+    autoPrefixer(),
+    require('postcss-media-variables')
+  ],
 };

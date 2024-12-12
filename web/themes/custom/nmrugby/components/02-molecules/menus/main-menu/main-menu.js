@@ -1,8 +1,8 @@
 Drupal.behaviors.mainMenu = {
-  attach(context) {
-    const toggleExpand = context.getElementById('toggle-expand');
-    const menu = context.getElementById('main-nav');
+  attach() {
+    const menu = document.getElementById('main-nav');
     if (menu) {
+      const toggleExpand = document.getElementById('toggle-expand');
       const expandMenu = menu.getElementsByClassName('expand-sub');
 
       // Mobile Menu Show/Hide.
